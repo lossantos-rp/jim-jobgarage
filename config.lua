@@ -15,23 +15,38 @@ print("Jim-JobGarage v1.1 - Job Garage Script by Jimathy")
 
 Config = {
 	Debug = false,  -- Enable to use debug features
-	CarDespawn = true, -- Sends the vehicle to hell
+	CarDespawn = false, -- Sends the vehicle to hell
 	Locations = {
 		[1] = {
 			zoneEnable = true,
-			job = "mechanic",
+			job = "sams",
 			garage = { 
-				spawn = vector4(-179.34, -1285.27, 30.83, 89.24),  -- Where the car will spawn
-				out = vector4(-177.1, -1282.25, 31.3, 179.01),	-- Where the parking stand is
+				spawn = vector4(337.2, -1477.45, 29.22, 299.62),  -- Where the car will spawn
+				out = vector4(337.12, -1460.06, 29.68, 139.3),	-- Where the parking stand is
 				list = {
-					["cheburek"] = {
-						colors = { 136, 137 },
-						grade = 4,
-						livery = 5,
+					["emsnspeedo"] = {
+						colors = { 111, 111 },
+						grade = 0,
 						bulletproof = true,
-						extras = { 1, 4 },
 					},
-					["burrito3"] = { },
+					["emsroamer"] = {
+						colors = { 111, 111 },
+						grade = 2,
+						bulletproof = true,
+					},
+					["ambulance22"] = {
+						colors = { 111, 111 },
+						grade = 0,
+						bulletproof = true,
+						livery = 4,
+					},
+					["ambulance"] = {
+						colors = { 111, 111 },
+						grade = 0,
+						bulletproof = true,
+						livery = 5,
+						extras = { 1 },
+					},
 				},
 			},
 		},
