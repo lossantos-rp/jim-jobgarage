@@ -67,5 +67,18 @@ Config = {
 				},
 			},
 		},
+		[3] = {
+			zoneEnable = true,
+			job = "tow",
+			garage = { 
+				spawn = vector4(-209.22, -1168.58, 23.04, 95.92),
+				out = vector4(-201.5, -1164.03, 23.16, 94.93),
+				list = {
+					["polsadrt"] = {
+						livery = 1,
+					},
+				},
+			},
+		},
 	},
 }
